@@ -55,7 +55,8 @@ def main(file_path, save_path):
     
 if __name__ == '__main__':
     if len(sys.argv) != 3:
-        print("Usage: python invites.py csv_file save_path")
+        print('Usage: python main.py csv_file out_path.ics')
+        print('You can then import the meetings from the ics file to outlook using "Add Calendar"')
         sys.exit(1)
 
     file_path = sys.argv[1]
